@@ -1,0 +1,24 @@
+# Private knowledge base: licensed or internal material never leaves your machine.
+corpus/private/*
+!corpus/private/README.md
+
+# Results from runs that included private material
+eval/results/*-private*
+eval/questions.private.yaml
+
+# Secrets
+.env
+
+# Downloaded copies of the project
+*.zip
+
+# Caches and build output
+.cache/
+.index/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+build/
+dist/

@@ -1,0 +1,329 @@
+{
+  "retrieval": [
+    {
+      "mode": "bm25",
+      "questions": 28,
+      "hit@1": 0.6071428571428571,
+      "hit@3": 0.9285714285714286,
+      "hit@6": 1.0,
+      "hit@10": 1.0,
+      "mrr@10": 0.7779761904761905,
+      "per_question": [
+        {
+          "id": "a01",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__adkar-assessment"
+        },
+        {
+          "id": "a02",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__adkar-assessment"
+        },
+        {
+          "id": "a03",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__adkar-assessment"
+        },
+        {
+          "id": "a04",
+          "rank": 2,
+          "top": "tflynn-change-management/examples__pega-1to1-ops-manager__INPUT"
+        },
+        {
+          "id": "a05",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__stakeholder-resistance-map"
+        },
+        {
+          "id": "a06",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__stakeholder-resistance-map"
+        },
+        {
+          "id": "a07",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__comms-training-plan"
+        },
+        {
+          "id": "a08",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__comms-training-plan"
+        },
+        {
+          "id": "a09",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__comms-training-plan"
+        },
+        {
+          "id": "a10",
+          "rank": 2,
+          "top": "tflynn-change-management/change-management__SKILL"
+        },
+        {
+          "id": "a11",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__health-check"
+        },
+        {
+          "id": "a12",
+          "rank": 1,
+          "top": "tflynn-change-management/change-management__references__health-check"
+        },
+        {
+          "id": "a13",
+          "rank": 1,
+          "top": "tflynn-adoption-metrics/docs__metric-definitions"
+        },
+        {
+          "id": "a14",
+          "rank": 1,
+          "top": "tflynn-adoption-metrics/docs__metric-definitions"
+        },
+        {
+          "id": "a15",
+          "rank": 3,
+          "top": "tflynn-adoption-metrics/README"
+        },
+        {
+          "id": "a16",
+          "rank": 1,
+          "top": "tflynn-adoption-metrics/docs__metric-definitions"
+        },
+        {
+          "id": "a17",
+          "rank": 2,
+          "top": "tflynn-change-management/examples__pega-1to1-ops-manager__INPUT"
+        },
+        {
+          "id": "a18",
+          "rank": 2,
+          "top": "tflynn-change-management/examples__pega-1to1-ops-manager__INPUT"
+        },
+        {
+          "id": "a19",
+          "rank": 2,
+          "top": "tflynn-change-management/examples__pega-1to1-ops-manager__GROUND-TRUTH"
+        },
+        {
+          "id": "a20",
+          "rank": 2,
+          "top": "18f-product-guide/product__partners__coach"
+        },
+        {
+          "id": "a21",
+          "rank": 2,
+          "top": "18f-product-guide/product__deliver__measure"
+        },
+        {
+          "id": "a22",
+          "rank": 1,
+          "top": "18f-methods/methods__discover__hopes-and-fears"
+        },
+        {
+          "id": "a23",
+          "rank": 1,
+          "top": "18f-methods/methods__discover__stakeholder-influence-mapping"
+        },
+        {
+          "id": "a24",
+          "rank": 1,
+          "top": "usds-playbook/_plays__06"
+        },
+        {
+          "id": "a25",
+          "rank": 1,
+          "top": "usds-playbook/_plays__12"
+        },
+        {
+          "id": "a26",
+          "rank": 2,
+          "top": "18f-product-guide/product__partners__capacity"
+        },
+        {
+          "id": "x02",
+          "rank": 5,
+          "top": "tflynn-change-management/change-management__SKILL"
+        },
+        {
+          "id": "x03",
+          "rank": 4,
+          "top": "tflynn-change-management/change-management__SKILL"
+        }
+      ]
+    }
+  ],
+  "gate": {
+    "scores": {
+      "a01": 0.4250014936471843,
+      "a02": 0.45103616742741487,
+      "a03": 0.36850404999545233,
+      "a04": 0.14018835717192032,
+      "a05": 0.4238969430414875,
+      "a06": 0.5464676138778592,
+      "a07": 0.2765718661728298,
+      "a08": 0.31984620563007604,
+      "a09": 0.34733555096840696,
+      "a10": 0.4129050182409921,
+      "a11": 0.41792314314496354,
+      "a12": 0.4517124316195577,
+      "a13": 0.6052191000750422,
+      "a14": 0.3183415439094848,
+      "a15": 0.4987078236479876,
+      "a16": 0.4022981260603062,
+      "a17": 0.34542221732582296,
+      "a18": 0.3350092238584446,
+      "a19": 0.2743377311953197,
+      "a20": 0.40719096374991537,
+      "a21": 0.48196006651225604,
+      "a22": 0.5319190806765354,
+      "a23": 0.43148626003121915,
+      "a24": 0.2475823966843681,
+      "a25": 0.2959498310567394,
+      "a26": 0.37860099514518514,
+      "u01": 0.22429837595872282,
+      "u02": 0.16147410836763898,
+      "u03": 0.24283586195624599,
+      "u04": 0.18997501520699772,
+      "u05": 0.226545660877871,
+      "u06": 0.1894894100605376,
+      "o01": 0.12323008285529455,
+      "o02": 0.18439285606659012,
+      "o03": 0.11679167952451767,
+      "x01": 0.11528872254823358,
+      "x02": 0.17378929001546034,
+      "x03": 0.1987783386449176,
+      "x04": 0.08532520677447394
+    },
+    "sweep": [
+      {
+        "threshold": 0.1,
+        "answerable_pass": 1.0,
+        "off_topic_stopped": 0.0,
+        "unanswerable_stopped": 0.0
+      },
+      {
+        "threshold": 0.12,
+        "answerable_pass": 1.0,
+        "off_topic_stopped": 0.3333333333333333,
+        "unanswerable_stopped": 0.0
+      },
+      {
+        "threshold": 0.14,
+        "answerable_pass": 1.0,
+        "off_topic_stopped": 0.6666666666666666,
+        "unanswerable_stopped": 0.0
+      },
+      {
+        "threshold": 0.16,
+        "answerable_pass": 0.9642857142857143,
+        "off_topic_stopped": 0.6666666666666666,
+        "unanswerable_stopped": 0.0
+      },
+      {
+        "threshold": 0.18,
+        "answerable_pass": 0.9285714285714286,
+        "off_topic_stopped": 0.6666666666666666,
+        "unanswerable_stopped": 0.16666666666666666
+      },
+      {
+        "threshold": 0.2,
+        "answerable_pass": 0.8928571428571429,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 0.5
+      },
+      {
+        "threshold": 0.22,
+        "answerable_pass": 0.8928571428571429,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 0.5
+      },
+      {
+        "threshold": 0.24,
+        "answerable_pass": 0.8928571428571429,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 0.8333333333333334
+      },
+      {
+        "threshold": 0.26,
+        "answerable_pass": 0.8571428571428571,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.28,
+        "answerable_pass": 0.7857142857142857,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.3,
+        "answerable_pass": 0.75,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.32,
+        "answerable_pass": 0.6785714285714286,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.34,
+        "answerable_pass": 0.6428571428571429,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.36,
+        "answerable_pass": 0.5714285714285714,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.38,
+        "answerable_pass": 0.5,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.4,
+        "answerable_pass": 0.5,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.42,
+        "answerable_pass": 0.35714285714285715,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.44,
+        "answerable_pass": 0.25,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.46,
+        "answerable_pass": 0.17857142857142858,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.48,
+        "answerable_pass": 0.17857142857142858,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      },
+      {
+        "threshold": 0.5,
+        "answerable_pass": 0.10714285714285714,
+        "off_topic_stopped": 1.0,
+        "unanswerable_stopped": 1.0
+      }
+    ],
+    "recommended": 0.14,
+    "min_answerable_score": 0.14018835717192032,
+    "max_off_topic_score": 0.18439285606659012
+  }
+}

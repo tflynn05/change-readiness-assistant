@@ -1,0 +1,100 @@
+# Public knowledge base: every source, where it comes from, and its license.
+# scripts/build_corpus.py reads this file, fetches each repo at the pinned commit,
+# and writes cleaned markdown to corpus/public/<source id>/.
+# Only openly licensed material belongs here. Licensed or proprietary material
+# (training manuals, certification content, internal documents) goes in
+# corpus/private/, which git ignores.
+
+sources:
+  - id: tflynn-change-management
+    title: Change management skill (references and Pega case study)
+    author: Tim Flynn
+    repo: https://github.com/tflynn05/change-management-skill
+    commit: afc2dc6d926ea836128fba6e0558d3ec1015c2bc
+    license: MIT
+    url_base: https://github.com/tflynn05/change-management-skill/blob/main/
+    include:
+      - change-management/SKILL.md
+      - change-management/references/*.md
+      - examples/pega-1to1-ops-manager/INPUT.md
+      - examples/pega-1to1-ops-manager/GROUND-TRUTH.md
+      - examples/pega-1to1-ops-manager/EVALUATION.md
+
+  - id: tflynn-adoption-metrics
+    title: Adoption metrics for platform rollouts
+    author: Tim Flynn
+    repo: https://github.com/tflynn05/adoption-metrics
+    commit: 780e17373da5a0e11fd949dd03764303168e2ef6
+    license: MIT
+    url_base: https://github.com/tflynn05/adoption-metrics/blob/main/
+    include:
+      - docs/metric-definitions.md
+      - README.md
+
+  - id: 18f-product-guide
+    title: 18F Product Guide
+    author: 18F, U.S. General Services Administration
+    repo: https://github.com/18F/guides
+    commit: debc24b34f23686194d9fe42e391859d569bd39a
+    license: CC0-1.0 (U.S. public domain)
+    url_base: https://guides.18f.org/
+    url_from_permalink: true
+    include:
+      - content/product/*/*.md
+    exclude:
+      - content/product/about-this-guide/LICENSE.md
+      - content/product/about-this-guide/resources.md
+
+  - id: 18f-derisking
+    title: 18F De-risking Guide and Federal Field Guide
+    author: 18F, U.S. General Services Administration
+    repo: https://github.com/18F/guides
+    commit: debc24b34f23686194d9fe42e391859d569bd39a
+    license: CC0-1.0 (U.S. public domain)
+    url_base: https://guides.18f.org/
+    url_from_permalink: true
+    # Procurement and contracting chapters are left out: they are long and off-topic
+    # for rollout planning, and they crowd out the relevant passages in keyword search.
+    include:
+      - content/derisking-government-tech/home/introduction.md
+      - content/derisking-government-tech/home/principles.md
+      - content/derisking-government-tech/home/software-solutions.md
+      - content/derisking-government-tech/home/conclusion.md
+      - content/derisking-government-tech/resources/kickoff.md
+      - content/derisking-government-tech/resources/quality-indicators.md
+      - content/derisking/federal-field-guide/1-introduction.md
+      - content/derisking/federal-field-guide/2-basic-principles.md
+
+  - id: 18f-agile
+    title: 18F Agile Guide
+    author: 18F, U.S. General Services Administration
+    repo: https://github.com/18F/guides
+    commit: debc24b34f23686194d9fe42e391859d569bd39a
+    license: CC0-1.0 (U.S. public domain)
+    url_base: https://guides.18f.org/
+    url_from_permalink: true
+    include:
+      - content/agile/*.md
+    exclude:
+      - content/agile/_agile.md
+
+  - id: 18f-methods
+    title: 18F Methods
+    author: 18F, U.S. General Services Administration
+    repo: https://github.com/18F/guides
+    commit: debc24b34f23686194d9fe42e391859d569bd39a
+    license: CC0-1.0 (U.S. public domain)
+    url_base: https://guides.18f.org/
+    url_from_permalink: true
+    include:
+      - content/methods/*/*.md
+
+  - id: usds-playbook
+    title: U.S. Digital Services Playbook
+    author: U.S. Digital Service
+    repo: https://github.com/usds/playbook
+    commit: f5d71f1939efe87db9f0be414bcfa7c489e01c19
+    license: CC0-1.0 (U.S. public domain)
+    url_base: https://playbook.cio.gov/
+    include:
+      - _plays/*.md
