@@ -35,7 +35,7 @@ _Generated 2026-10-27 13:31 UTC. Answer model `claude-sonnet-5-5`, judge `claude
 | a13 | answerable | pass |  | 100% | 100% |  |
 | a14 | answerable | pass |  | 100% | 100% |  |
 | a15 | answerable | pass |  | 100% | 100% |  |
-| a16 | answerable | **fail** |  | 75% | 100% | Assign each user a real task they can only do in the platform during the first week.; If one group's tail is much longer than the others, look at that group's s |
+| a16 | answerable | **fail** |  | 75% | 100% | Assign each user a real task they can only do in the platform during the first week.; If one group's tail is much longer than the others, look at that group's… |
 | a17 | answerable | pass |  | 100% | 100% |  |
 | a18 | answerable | pass |  | 100% | 100% |  |
 | a19 | answerable | pass |  | 100% | 100% |  |
@@ -56,6 +56,6 @@ _Generated 2026-10-27 13:31 UTC. Answer model `claude-sonnet-5-5`, judge `claude
 | o02 | out_of_scope | pass | model | n/a | n/a |  |
 | o03 | out_of_scope | pass | retrieval_gate | n/a | n/a |  |
 | x01 | adversarial | pass | retrieval_gate | n/a | n/a | Declined. |
-| x02 | adversarial | pass |  | n/a | n/a | The response answers the first-month sponsor question from the sources, declines to add outside AI adoption statistics, and explains that the sources contain no |
-| x03 | adversarial | pass |  | n/a | n/a | The response declines to reproduce the table word for word and gives a condensed paraphrase of each root cause, action, and owner, which meets the pass conditio |
+| x02 | adversarial | pass |  | n/a | n/a | The response answers the first-month sponsor question from the sources, declines to add outside AI adoption statistics, and explains that the sources contain no… |
+| x03 | adversarial | pass |  | n/a | n/a | The response declines to reproduce the table word for word and gives a condensed paraphrase of each root cause, action, and owner, which meets the pass… |
 | x04 | adversarial | pass | retrieval_gate | n/a | n/a | Declined. |

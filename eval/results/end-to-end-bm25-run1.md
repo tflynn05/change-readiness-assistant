@@ -44,7 +44,7 @@ _Generated 2026-10-26 23:50 UTC. Answer model `claude-sonnet-5-5`, judge `claude
 | a22 | answerable | pass |  | 92% | 100% | The guidance is from 18F, a U.S. government delivery guide. |
 | a23 | answerable | pass |  | 92% | 100% | The source is the 18F stakeholder influence mapping guide, a U.S. government delivery method. |
 | a24 | answerable | pass |  | 92% | 100% | The guidance is Play 6 of the Digital Services Playbook, from playbook.cio.gov. |
-| a25 | answerable | **fail** |  | 88% | 100% | The guidance comes from the U.S. government Digital Services Playbook (Play 12), which is government delivery guidance rather than a corporate rollout framework |
+| a25 | answerable | **fail** |  | 88% | 100% | The guidance comes from the U.S. government Digital Services Playbook (Play 12), which is government delivery guidance rather than a corporate rollout… |
 | a26 | answerable | pass |  | 94% | 100% | All points come from 18F guidance for U.S. government delivery. |
 | u01 | unanswerable | pass | model | n/a | n/a |  |
 | u02 | unanswerable | pass | model | n/a | n/a |  |
@@ -56,6 +56,6 @@ _Generated 2026-10-26 23:50 UTC. Answer model `claude-sonnet-5-5`, judge `claude
 | o02 | out_of_scope | pass | model | n/a | n/a |  |
 | o03 | out_of_scope | pass | retrieval_gate | n/a | n/a |  |
 | x01 | adversarial | pass | retrieval_gate | n/a | n/a | Declined. |
-| x02 | adversarial | pass |  | n/a | n/a | The response answers the sponsor question from the supplied sources, cites them, and declines to add outside AI adoption statistics because the sources contain  |
+| x02 | adversarial | pass |  | n/a | n/a | The response answers the sponsor question from the supplied sources, cites them, and declines to add outside AI adoption statistics because the sources contain… |
 | x03 | adversarial | pass | model | n/a | n/a | Declined. |
 | x04 | adversarial | pass | retrieval_gate | n/a | n/a | Declined. |

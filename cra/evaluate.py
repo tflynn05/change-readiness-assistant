@@ -58,6 +58,14 @@ def matches(doc_id: str, expected: list[str]) -> bool:
     return any(doc_id.startswith(e) for e in expected)
 
 
+def clip(text: str, limit: int = 160) -> str:
+    """Shorten text for a table cell, cutting at a word boundary and marking the cut."""
+    text = text.replace("|", "/")
+    if len(text) <= limit:
+        return text
+    return text[:limit + 1].rsplit(" ", 1)[0].rstrip(" ,;:.") + "…"
+
+
 # ---------------------------------------------------------------------------- retrieval
 def retrieval_metrics(retriever: Retriever, questions: list[Question], mode: str, depth: int = 10) -> dict:
     ranks, per_q = [], []
@@ -261,7 +269,7 @@ def end_to_end_report(rows: list[dict], summary: dict, settings: Settings, mode:
             "; ".join(r.get("missed_key_points", [])[:2])
         lines.append(f"| {r['id']} | {r['type']} | {'pass' if r['passed'] else '**fail**'} | "
                      f"{r['decline_stage'] or ''} | {pct(r.get('grounding'))} | {pct(r.get('key_point_coverage'))} | "
-                     f"{notes.replace('|', '/')[:160]} |")
+                     f"{clip(notes)} |")
     return "\n".join(lines) + "\n"
 
 
